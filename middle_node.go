@@ -8,7 +8,8 @@
  * }
  */
 
-func middleNode(head *ListNode) *ListNode {
+func 
+middleNode(head *ListNode) *ListNode {
     fast, slow := head, head
 
     for i := 1; fast != nil ; i++ {
